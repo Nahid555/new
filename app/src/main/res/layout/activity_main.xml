@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/editText1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="20dp"
+       android:hint="Phone numbers"
+       android:layout_marginTop="20dp"
+       android:textSize="25dp"/>
+    <EditText
+        android:id="@+id/editText2"
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+        android:gravity="start"
+        android:layout_marginTop="10dp"
+       android:paddingLeft="20dp"
+       android:hint="text your message"
+       android:textSize="25dp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="Sent"/>
+
+</LinearLayout>
